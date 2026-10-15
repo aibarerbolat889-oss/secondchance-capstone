@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SecondChance helps neighbours give useful household items a second life." />
+    <title>SecondChance | Give useful items a second life</title>
+    <style>
+      :root { color-scheme: light; font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { margin: 0; color: #102a43; background: #f7fbf8; }
+      .hero { min-height: 100vh; padding: 28px clamp(24px, 7vw, 110px) 64px; background: radial-gradient(circle at 86% 12%, #c9f3d5 0 13%, transparent 14%), linear-gradient(135deg, #edfff2, #f7fbf8 55%, #e0f4ff); }
+      nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .brand { font-size: 1.45rem; font-weight: 800; letter-spacing: -0.04em; color: #117a45; text-decoration: none; }
+      .nav-link { color: #285943; font-weight: 650; text-decoration: none; }
+      .content { max-width: 760px; padding-top: clamp(82px, 16vh, 180px); }
+      .eyebrow { margin: 0 0 18px; color: #117a45; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; font-size: .8rem; }
+      h1 { margin: 0; max-width: 760px; font-size: clamp(3.1rem, 8vw, 6.6rem); line-height: .98; letter-spacing: -.065em; }
+      h1 span { color: #117a45; }
+      .tagline { max-width: 610px; margin: 28px 0 34px; font-size: clamp(1.12rem, 2.2vw, 1.38rem); line-height: 1.62; color: #486581; }
+      .cta { display: inline-block; padding: 15px 24px; border-radius: 12px; color: white; background: #117a45; font-weight: 800; text-decoration: none; box-shadow: 0 12px 28px #117a4540; }
+      .facts { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 70px; }
+      .fact { min-width: 165px; padding: 18px 20px; border: 1px solid #cde6d5; border-radius: 14px; background: #ffffffb8; }
+      .fact strong { display: block; font-size: 1.35rem; color: #117a45; }
+      .fact span { color: #486581; font-size: .92rem; }
+      @media (max-width: 560px) { .hero { padding-inline: 22px; } .nav-link { display: none; } }
+    </style>
+  </head>
+  <body>
+    <main class="hero">
+      <nav aria-label="Primary navigation">
+        <a class="brand" href="./">SecondChance</a>
+        <a class="nav-link" href="https://github.com/aibarerbolat889-oss/secondchance-capstone">View project on GitHub</a>
+      </nav>
+      <section class="content" aria-labelledby="page-title">
+        <p class="eyebrow">Community reuse made simple</p>
+        <h1 id="page-title">Give useful items<br /><span>a second chance.</span></h1>
+        <p class="tagline">SecondChance connects neighbours who have household items to share with people who can use them. Discover, donate, and keep good things in use for longer.</p>
+        <a class="cta" href="https://github.com/aibarerbolat889-oss/secondchance-capstone#readme">Get Started</a>
+        <div class="facts" aria-label="Project highlights">
+          <div class="fact"><strong>16 items</strong><span>Ready to discover</span></div>
+          <div class="fact"><strong>Secure</strong><span>Account-based donations</span></div>
+          <div class="fact"><strong>Local</strong><span>Made for community reuse</span></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
