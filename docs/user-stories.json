@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Browse available household items",
+    "label": "backlog",
+    "file": "docs/user-stories/01.md"
+  },
+  {
+    "title": "View an item's details",
+    "label": "new",
+    "file": "docs/user-stories/02.md"
+  },
+  {
+    "title": "Donate an item with a photograph",
+    "label": "backlog",
+    "file": "docs/user-stories/03.md"
+  },
+  {
+    "title": "Manage my own listings",
+    "label": "backlog",
+    "file": "docs/user-stories/04.md"
+  },
+  {
+    "title": "Search and filter items",
+    "label": "backlog",
+    "file": "docs/user-stories/05.md"
+  },
+  {
+    "title": "Register and log in securely",
+    "label": "new",
+    "file": "docs/user-stories/06.md"
+  },
+  {
+    "title": "Update my profile and post reviews",
+    "label": "backlog",
+    "file": "docs/user-stories/07.md"
+  },
+  {
+    "title": "Validate and package the application",
+    "label": "technical debt",
+    "file": "docs/user-stories/08.md"
+  }
+]

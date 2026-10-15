@@ -1,0 +1,10 @@
+Command: npm run seed
+
+{
+  "acknowledged": true,
+  "insertedCount": 16,
+  "existingSeedDocuments": 0,
+  "totalSeedDocuments": 16
+}
+
+Captured at: 2026-10-15T17:07:20.340Z

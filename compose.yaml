@@ -1,0 +1,25 @@
+services:
+  mongodb:
+    image: mongo:8.0
+    volumes:
+      - secondchance-db:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand({ping:1})"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  app:
+    build: .
+    ports: ["3060:3060"]
+    environment:
+      MONGO_URL: mongodb://mongodb:27017
+      MONGO_DB: secondChance
+      JWT_SECRET: ${JWT_SECRET:?Set a random JWT_SECRET in .env}
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - secondchance-uploads:/app/secondChance-backend/public/uploads
+volumes:
+  secondchance-db:
+  secondchance-uploads:

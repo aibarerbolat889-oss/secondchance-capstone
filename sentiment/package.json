@@ -1,0 +1,13 @@
+{
+  "name": "secondchance-sentiment",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "natural": "^8.0.0"
+  }
+}

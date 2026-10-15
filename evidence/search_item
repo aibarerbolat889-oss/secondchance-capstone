@@ -1,0 +1,14 @@
+curl -i "http://localhost:3060/api/secondchance/search?category=Office&name=desk&age_years=3"
+
+HTTP/1.1 200 OK
+X-Content-Type-Options: nosniff
+Content-Type: application/json; charset=utf-8
+Content-Length: 902
+ETag: W/"386-Fc//8NHIOvRUBVkFDMaQlCRKZK4"
+Date: Thu, 15 Oct 2026 17:08:06 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[{"_id":"6ad10848f063315471608857","id":"426","age_days":900,"age_years":2.47,"category":"Office","comments":[{"author":"Olivia Chen","comment":"This desk is sleek and functional - perfect for maximizing my workspace! Love the clean lines and modern design."},{"author":"Michael Thompson","comment":"Finally found a sturdy desk that can handle my heavy workload! The spacious surface area is ideal for multiple monitors and organizing my projects. Feeling productive already!"},{"author":"Sarah Lee","comment":"This adjustable desk is a game-changer! Switching between sitting and standing throughout the day helps me stay energized and focused. Perfect for promoting healthy working habits."}],"condition":"Older","date_added":1681603200,"description":"This office desk has been my workspace for years...","image":"/images/office-desk.jpeg","name":"Office Desk","posted_by":"27654","zipcode":"90211"}]
+Captured at: 2026-10-15T17:08:06.620Z
+JWT values are redacted; other response data is unchanged.
